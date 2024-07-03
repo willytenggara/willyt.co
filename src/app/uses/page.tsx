@@ -49,33 +49,36 @@ export default function Uses() {
         <ToolsSection title="Workstation">
           <Tool title="13” MacBook Air, M1, 8GB RAM, (2020)">
             I was using an Intel-based 13” MacBook Air prior to this and the
-            difference is night and day. I’ve never heard the fans turn on a
-            single time (becasue it doesn't have one), even under the incredibly
-            heavy loads I put it through with our various launch simulations.
+            difference is night and day. I&apos;ve never heard the fans turn on
+            a single time (becasue it doesn&apos;t have one), even under the
+            incredibly heavy loads I put it through with our various launch
+            simulations.
           </Tool>
           <Tool title="IBM Model M SSK Industrial Keyboard">
-            They don’t make keyboards the way they used to. I buy these any time
-            I see them go up for sale and keep them in storage in case I need
-            parts or need to retire my main.
+            They don&apos;t make keyboards the way they used to. I buy these any
+            time I see them go up for sale and keep them in storage in case I
+            need parts or need to retire my main.
           </Tool>
         </ToolsSection>
 
         <ToolsSection title="Development tools">
           <Tool title="Visual Studio Code">
-            I don’t care if it’s missing all of the fancy IDE features everyone
-            else relies on, VS Code is still the best text editor ever made.
+            I don&apos;t care if it&apos;s missing all of the fancy IDE features
+            everyone else relies on, VS Code is still the best text editor ever
+            made.
           </Tool>
           <Tool title="iTerm2">
-            I’m honestly not even sure what features I get with this that aren’t
-            just part of the macOS Terminal but it’s what I use.
+            I&apos;m honestly not even sure what features I get with this that
+            aren&apos;t just part of the macOS Terminal but it&apos;s what I
+            use.
           </Tool>
         </ToolsSection>
 
         <ToolsSection title="Design">
           <Tool title="Figma">
-            I started using Figma as just a design tool but now it’s become my
-            virtual whiteboard for the entire company. Never would have expected
-            the collaboration features to be the real hook.
+            I started using Figma as just a design tool but now it&apos;s become
+            my virtual whiteboard for the entire company. Never would have
+            expected the collaboration features to be the real hook.
           </Tool>
         </ToolsSection>
         <ToolsSection title="Productivity">
@@ -86,7 +89,7 @@ export default function Uses() {
           <Tool title="Reflect">
             Using a daily notes system instead of trying to keep things
             organized by topics has been super powerful for me. And with
-            Reflect, it’s still easy for me to keep all of that stuff
+            Reflect, it&apos;s still easy for me to keep all of that stuff
             discoverable by topic even though all of my writing happens in the
             daily note.
           </Tool>
