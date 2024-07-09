@@ -1,5 +1,6 @@
 import { type Metadata } from 'next'
 import { SpeedInsights } from '@vercel/speed-insights/next'
+import { Analytics } from '@vercel/analytics/react'
 import { Providers } from '@/app/providers'
 import { Layout } from '@/components/Layout'
 
@@ -30,9 +31,10 @@ export default function RootLayout({
         <Providers>
           <div className="flex w-full">
             <Layout>{children}</Layout>
-            <SpeedInsights />
           </div>
         </Providers>
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   )
