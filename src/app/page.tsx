@@ -12,8 +12,6 @@ import {
   XIcon,
 } from '@/components/SocialIcons'
 
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoIchowa from '@/images/logos/ichowa.png'
 import logoMazecare from '@/images/logos/mazecare.png'
 import image1 from '@/images/photos/image-1.jpg'
@@ -187,16 +185,6 @@ function Role({ role }: { role: Role }) {
 
 function Resume() {
   let resume: Array<Role> = [
-    // {
-    //   company: 'Planetaria',
-    //   title: 'CEO',
-    //   logo: logoPlanetaria,
-    //   start: '2019',
-    //   end: {
-    //     label: 'Present',
-    //     dateTime: new Date().getFullYear().toString(),
-    //   },
-    // },
     {
       company: 'iChowa',
       title: 'Software Engineer',
@@ -267,25 +255,30 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Software engineer, audio engineer and aspiring barista.
+            A Software engineer, audio engineer and vlogger.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Willy, a software and sound engineer based in Melbourne.
+            I’m Willy, a software engineer and sound engineer based in
+            Melbourne, Australia.
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
             <SocialLink
-              href="#"
+              href="https://x.com/willybernardus"
+              aria-label="Follow on X"
+              icon={XIcon}
+            />
+            <SocialLink
+              href="https://www.instagram.com/willybernardus/"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
-              href="https://github.com/willytenggara"
+              href="https://github.com/bernardus"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://linkedin.com/in/willytenggara"
+              href="https://linkedin.com/in/willybernardus"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
