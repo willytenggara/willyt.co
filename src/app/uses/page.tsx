@@ -47,17 +47,12 @@ export default function Uses() {
     >
       <div className="space-y-20">
         <ToolsSection title="Workstation">
-          <Tool title="13” MacBook Air, M1, 8GB RAM, (2020)">
+          <Tool title="13” MacBook Air M1, 8GB RAM, (2020)">
             I was using an Intel-based 13” MacBook Air prior to this and the
             difference is night and day. I&apos;ve never heard the fans turn on
             a single time (becasue it doesn&apos;t have one), even under the
             incredibly heavy loads I put it through with our various launch
             simulations.
-          </Tool>
-          <Tool title="IBM Model M SSK Industrial Keyboard">
-            They don&apos;t make keyboards the way they used to. I buy these any
-            time I see them go up for sale and keep them in storage in case I
-            need parts or need to retire my main.
           </Tool>
         </ToolsSection>
 
@@ -67,10 +62,13 @@ export default function Uses() {
             everyone else relies on, VS Code is still the best text editor ever
             made.
           </Tool>
-          <Tool title="iTerm2">
-            I&apos;m honestly not even sure what features I get with this that
-            aren&apos;t just part of the macOS Terminal but it&apos;s what I
-            use.
+          <Tool title="Xcode">
+            I use Xcode only to build iOS app, build with NextJS and Capacitor.
+            Fixing things when needed in Xcode. Other than that, doesn&apos;t
+            really use as much as VS code.
+          </Tool>
+          <Tool title="Android Studio">
+            Best use of Android Studio is in Windows.
           </Tool>
         </ToolsSection>
 
@@ -85,21 +83,6 @@ export default function Uses() {
           <Tool title="Notion">
             I use Notion for basically everything, from managing my personal
             life, studies, and work.
-          </Tool>
-          <Tool title="Reflect">
-            Using a daily notes system instead of trying to keep things
-            organized by topics has been super powerful for me. And with
-            Reflect, it&apos;s still easy for me to keep all of that stuff
-            discoverable by topic even though all of my writing happens in the
-            daily note.
-          </Tool>
-          <Tool title="SavvyCal">
-            Great tool for scheduling meetings while protecting my calendar and
-            making sure I still have lots of time for deep work during the week.
-          </Tool>
-          <Tool title="Focus">
-            Simple tool for blocking distracting websites when I need to just do
-            the work and get some momentum going.
           </Tool>
         </ToolsSection>
       </div>

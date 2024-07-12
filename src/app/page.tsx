@@ -21,6 +21,7 @@ import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import { type ArticleWithSlug, getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
+import { useEffect } from 'react'
 
 function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -186,14 +187,14 @@ function Role({ role }: { role: Role }) {
 function Resume() {
   let resume: Array<Role> = [
     {
-      company: 'iChowa',
+      company: 'iChowa, Hong Kong',
       title: 'Software Engineer',
       logo: logoIchowa,
       start: 'Feb 2023',
       end: 'May 2023',
     },
     {
-      company: 'Mazecare',
+      company: 'Mazecare, Hong Kong',
       title: 'Software Engineer',
       logo: logoMazecare,
       start: 'Oct 2021',
@@ -255,11 +256,12 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            A Software engineer, audio engineer and vlogger.
+            Hi I'm Willy 👋🏻 Software Engineer, Audio Engineer and Vlogger.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Willy, a software engineer and sound engineer based in
-            Melbourne, Australia.
+            I’m Willy Bernardus, a software engineer and sound engineer based in
+            Melbourne, Australia. Solving problems through the quality software
+            for a better world. Focuses on user journey and ease of use.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
