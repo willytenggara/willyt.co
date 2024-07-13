@@ -43,13 +43,13 @@ function Appearance({
 export const metadata: Metadata = {
   title: 'Speaking',
   description:
-    'I’ve spoken at events all around the world and been interviewed for many podcasts.',
+    'I&apos;ve spoken on many occasions about self development and career pathway',
 }
 
 export default function Speaking() {
   return (
     <SimpleLayout
-      title="I’ve spoken at events all around the world and been interviewed for many podcasts."
+      title="I've spoken on many occasions about self development and career advice"
       intro="One of my favorite ways to share my ideas is live on stage, where there’s so much more communication bandwidth than there is in writing, and I love podcast interviews because they give me the opportunity to answer questions instead of just present my opinions."
     >
       <div className="space-y-20">
