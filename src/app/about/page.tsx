@@ -68,21 +68,21 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            I’m Willy Bernardus. I live in Melbourne, Australia.
+            I&apos;m Willy Bernardus. I live in Melbourne, Australia.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
               I have 2 years of experience in the web development industry,
-              where I've had the opportunity to work on diverse projects ranging
-              from SaaS to music lesson match making. My journey started with a
-              love for art and technology, and it has been an exciting ride ever
-              since.
+              where I&apos;ve had the opportunity to work on diverse projects
+              ranging from SaaS to music lesson match making. My journey started
+              with a love for art and technology, and it has been an exciting
+              ride ever since.
             </p>
             <p>
               I enjoy taking on new challenges and continuously improving my
               skills. Feel free to browse through my portfolio to see examples
-              of my work. If you’d like to collaborate or just say hello, don’t
-              hesitate to reach out!
+              of my work. If you&apos;d like to collaborate or just say hello,
+              don&apos;t hesitate to reach out!
             </p>
           </div>
         </div>
