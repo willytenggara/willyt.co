@@ -52,7 +52,7 @@ export default function Projects() {
   return (
     <SimpleLayout
       title="Things I’ve made trying to put my dent in the universe."
-      intro="This is some description"
+      intro="These are some project that I did during my careers"
     >
       <ul
         role="list"

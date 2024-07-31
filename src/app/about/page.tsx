@@ -72,16 +72,17 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Asperiores, nostrum. Sunt possimus autem, minima facilis quibusdam
-              veritatis provident iste, ad, itaque atque iure suscipit libero
-              quia laudantium fuga assumenda dolorem?
+              I have 2 years of experience in the web development industry,
+              where I've had the opportunity to work on diverse projects ranging
+              from SaaS to music lesson match making. My journey started with a
+              love for art and technology, and it has been an exciting ride ever
+              since.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A illum
-              voluptate eum nihil voluptatibus neque doloremque id, aliquid
-              dicta natus laudantium recusandae expedita? Expedita dolorum
-              delectus ipsa suscipit nemo cum.
+              I enjoy taking on new challenges and continuously improving my
+              skills. Feel free to browse through my portfolio to see examples
+              of my work. If you’d like to collaborate or just say hello, don’t
+              hesitate to reach out!
             </p>
           </div>
         </div>
