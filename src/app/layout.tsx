@@ -8,8 +8,8 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Willy Bernardus',
-    default: 'Willy Bernardus',
+    template: '%s - Willy Tenggara',
+    default: 'Willy Tenggara',
   },
   description:
     'I’m Willy, a software engineer and vlogger based in Melbourne, Australia.',

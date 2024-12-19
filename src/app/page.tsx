@@ -259,7 +259,7 @@ export default async function Home() {
             Hi I&apos;m Willy 👋🏻 Software Engineer, Audio Engineer and Vlogger.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I&apos;m Willy Bernardus, a software engineer and sound engineer
+            I&apos;m Willy Tenggara, a software engineer and sound engineer
             based in Melbourne, Australia. Solving problems through the quality
             software for a better world. Focuses on user journey and ease of
             use.
