@@ -266,22 +266,22 @@ export default async function Home() {
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://x.com/willybernardus"
+              href="https://x.com/willytenggara"
               aria-label="Follow on X"
               icon={XIcon}
             />
             <SocialLink
-              href="https://www.instagram.com/willybernardus/"
+              href="https://www.instagram.com/willytenggara/"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
-              href="https://github.com/willybernardus"
+              href="https://github.com/willytenggara"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://linkedin.com/in/willybernardus"
+              href="https://linkedin.com/in/willytenggara"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
