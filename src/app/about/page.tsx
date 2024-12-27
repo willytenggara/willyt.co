@@ -26,6 +26,7 @@ function SocialLink({
   return (
     <li className={clsx(className, 'flex')}>
       <Link
+        target="_blank"
         href={href}
         className="group flex text-sm font-medium text-zinc-800 transition hover:text-sky-500 dark:text-zinc-200 dark:hover:text-sky-500"
       >
@@ -92,7 +93,7 @@ export default function About() {
               Follow on X
             </SocialLink>
             <SocialLink
-              href="https://www.instagram.com/willytenggara/"
+              href="https://www.instagram.com/will_tenggara/"
               icon={InstagramIcon}
               className="mt-4"
             >

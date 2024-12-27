@@ -14,6 +14,7 @@ import {
 
 import logoIchowa from '@/images/logos/ichowa.png'
 import logoMazecare from '@/images/logos/mazecare.png'
+import logoTranstv from '@/images/logos/transtv.png'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -159,7 +160,12 @@ function Role({ role }: { role: Role }) {
   return (
     <li className="flex gap-4">
       <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-        <Image src={role.logo} alt="" className="h-7 w-7" unoptimized />
+        <Image
+          src={role.logo}
+          alt="logo"
+          className="h-7 w-7 rounded-full"
+          unoptimized
+        />
       </div>
       <dl className="flex flex-auto flex-wrap gap-x-2">
         <dt className="sr-only">Company</dt>
@@ -199,6 +205,13 @@ function Resume() {
       logo: logoMazecare,
       start: 'Oct 2021',
       end: 'Jan 2023',
+    },
+    {
+      company: 'Trans TV, Indonesia',
+      title: 'Sound Engineer',
+      logo: logoTranstv,
+      start: 'Sep 2018',
+      end: 'Des 2020',
     },
   ]
 
@@ -256,7 +269,7 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Hi I&apos;m Willy 👋🏻 Software Engineer, Audio Engineer and Vlogger.
+            Hi I&apos;m Will 👋🏻 Software Engineer, Sound Engineer and Vlogger.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I&apos;m Willy Tenggara, a software engineer and sound engineer
