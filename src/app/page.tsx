@@ -15,6 +15,7 @@ import {
 import logoIchowa from '@/images/logos/ichowa.png'
 import logoMazecare from '@/images/logos/mazecare.png'
 import logoTranstv from '@/images/logos/transtv.png'
+import logoCherubim from '@/images/logos/cherubim.png'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -210,6 +211,13 @@ function Resume() {
       logo: logoTranstv,
       start: 'Sep 2018',
       end: 'Des 2020',
+    },
+    {
+      company: 'Cherubim Sound, Indonesia',
+      title: 'Co Founder',
+      logo: logoCherubim,
+      start: 'Apr 2015',
+      end: 'Aug 2018',
     },
   ]
 
