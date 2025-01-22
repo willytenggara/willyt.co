@@ -1,18 +1,19 @@
-import { ArticleLayout } from '@/components/ArticleLayout'
+import { BlogLayout } from '@/components/BlogLayout'
 
-export const article = {
-  author: 'WillyTenggara',
-  date: '2024-08-19',
-  title: 'Mission Trip to Fiji',
-  description: 'As a Planetshakers College Student',
+export const blog = {
+  author: 'Willy Tenggara',
+  date: '2025-01-01',
+  title: 'New year, new me (?) 🤔',
+  description: 'Perspective about new year',
+  release: false,
 }
 
 export const metadata = {
-  title: article.title,
-  description: article.description,
+  title: blog.title,
+  description: blog.description,
 }
 
-export default (props) => <ArticleLayout article={article} {...props} />
+export default (props) => <BlogLayout blog={blog} {...props} />
 
 A short testimony before the departure of the mission trip.
 
