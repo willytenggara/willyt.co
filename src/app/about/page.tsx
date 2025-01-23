@@ -89,7 +89,7 @@ export default function About() {
         </div>
         <div className="lg:pl-20">
           <ul role="list">
-            <SocialLink href="https://x.com/willytenggara" icon={XIcon}>
+            {/* <SocialLink href="https://x.com/willytenggara" icon={XIcon}>
               Follow on X
             </SocialLink>
             <SocialLink
@@ -98,7 +98,7 @@ export default function About() {
               className="mt-4"
             >
               Follow on Instagram
-            </SocialLink>
+            </SocialLink> */}
             <SocialLink
               href="https://github.com/willytenggara"
               icon={GitHubIcon}
