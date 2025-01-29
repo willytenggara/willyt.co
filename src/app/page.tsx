@@ -19,7 +19,7 @@ import logoCherubim from '@/images/logos/cherubim.png'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
-import image4 from '@/images/photos/image-4.jpg'
+import image4 from '@/images/photos/image-6.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import { type BlogWithSlug, getAllBlogs } from '@/lib/blogs'
 import { formatDate } from '@/lib/formatDate'
@@ -89,7 +89,7 @@ function Blog({ blog }: { blog: BlogWithSlug }) {
     <Card as="article">
       <Card.Title href={`/blogs/${blog.slug}`}>{blog.title}</Card.Title>
       <Card.Eyebrow as="time" dateTime={blog.date} decorate>
-        {formatDate(blog.date)}
+        {formatDate(blog.date)} • {blog.readDuration}
       </Card.Eyebrow>
       <Card.Description>{blog.description}</Card.Description>
       <Card.Cta>Read blog</Card.Cta>

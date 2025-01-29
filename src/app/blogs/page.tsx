@@ -17,6 +17,7 @@ function Blog({ blog }: { blog: BlogWithSlug }) {
           decorate
         >
           {formatDate(blog.date)}
+          {blog.readDuration && ` • ${blog.readDuration}`}
         </Card.Eyebrow>
         <Card.Description>{blog.description}</Card.Description>
         <Card.Cta>Read blog</Card.Cta>
@@ -27,6 +28,7 @@ function Blog({ blog }: { blog: BlogWithSlug }) {
         className="mt-1 hidden md:block"
       >
         {formatDate(blog.date)}
+        {blog.readDuration && ` • ${blog.readDuration}`}
       </Card.Eyebrow>
     </article>
   )

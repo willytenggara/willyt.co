@@ -1,11 +1,12 @@
 import { BlogLayout } from '@/components/BlogLayout'
+import readingTime from 'reading-time'
 export const blog = {
   author: 'Willy Tenggara',
   date: '2024-02-22',
   title: 'A change of name',
   description: 'Not really a change though 😌',
   release: true,
-  content: `Hello everyone! 🙋🏻 How are you guys doing?! Hope you guys are doing well!
+  readDuration: readingTime(`Hello everyone! 🙋🏻 How are you guys doing?! Hope you guys are doing well!
 
 This topic might not be really important for some of people, but I feel like I want to inform my friends and family in Indonesia about this.
 For some of you, you might have known me as _Willy Bernardus_ or _WB_ for the last 29 years but from now on, in 2024 I will change my 'stage' name
@@ -24,7 +25,7 @@ With that being said, I truly believe one day I will be an Australian citizen, y
 
 > "For with God nothing is impossible" - Luke 1:37 NKJV
 
-So that's a little bit of information regarding the changes of my name. Thanks for reading!`,
+So that's a little bit of information regarding the changes of my name. Thanks for reading!`).text,
 }
 
 export const metadata = {
