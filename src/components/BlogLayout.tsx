@@ -8,6 +8,7 @@ import { Container } from '@/components/Container'
 import { Prose } from '@/components/Prose'
 import { type BlogWithSlug } from '@/lib/blogs'
 import { formatDate } from '@/lib/formatDate'
+import { calculateReadDuration } from '@/lib/calculateReadDurations'
 
 function ArrowLeftIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -31,6 +32,7 @@ export function BlogLayout({
 }) {
   let router = useRouter()
   let { previousPathname } = useContext(AppContext)
+  const readDuration = calculateReadDuration(blog.content)
 
   return (
     <Container className="mt-16 lg:mt-32">
@@ -57,6 +59,7 @@ export function BlogLayout({
               >
                 <span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500" />
                 <span className="ml-3">{formatDate(blog.date)}</span>
+                <span className="ml-3">— {readDuration} min read</span>
               </time>
             </header>
             <Prose className="mt-8" data-mdx-content>

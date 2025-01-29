@@ -6,6 +6,7 @@ interface Blog {
   author: string
   date: string
   release: boolean
+  content: string
 }
 
 export interface BlogWithSlug extends Blog {
