@@ -20,7 +20,7 @@ async function importBlog(blogFilename: string): Promise<BlogWithSlug> {
   }
 
   return {
-    slug: blogFilename.replace(/(\/page)?\.mdx$/, ''),
+    slug: blogFilename.replace(/(\/page)?\.mdx$/, ''), // Ensure slug is set correctly
     ...blog,
   }
 }

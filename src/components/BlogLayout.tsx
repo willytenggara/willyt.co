@@ -1,6 +1,6 @@
 'use client'
-
-import { useContext } from 'react'
+import { PrismaClient } from '@prisma/client'
+import { useContext, useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 
 import { AppContext } from '@/app/providers'
@@ -8,6 +8,9 @@ import { Container } from '@/components/Container'
 import { Prose } from '@/components/Prose'
 import { type BlogWithSlug } from '@/lib/blogs'
 import { formatDate } from '@/lib/formatDate'
+import { supabase } from '@/lib/supabaseClient'
+
+const prisma = new PrismaClient()
 
 function ArrowLeftIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -22,6 +25,24 @@ function ArrowLeftIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   )
 }
 
+// function EyeIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
+//   return (
+//     <svg
+//       viewBox="0 0 24 24"
+//       aria-hidden="true"
+//       {...props}
+//       fill="none"
+//       stroke="currentColor"
+//       stroke-width="2"
+//       stroke-linecap="round"
+//       stroke-linejoin="round"
+//     >
+//       <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+//       <circle cx="12" cy="12" r="3" />
+//     </svg>
+//   )
+// }
+
 export function BlogLayout({
   blog,
   children,
@@ -30,7 +51,38 @@ export function BlogLayout({
   children: React.ReactNode
 }) {
   let router = useRouter()
+  const [viewCount, setViewCount] = useState<number | null>(0)
   let { previousPathname } = useContext(AppContext)
+
+  // useEffect(() => {
+  //   if (!blog || !blog.slug) {
+  //     console.error('Blog or blog.slug is undefined')
+  //     return
+  //   }
+  //   async function fetchViewCount() {
+  //     const response = await fetch(`/api/views?slug=${blog.slug}`)
+  //     const data = await response.json()
+  //     setViewCount(data.views)
+  //   }
+
+  //   fetchViewCount()
+  // }, [blog.slug])
+
+  // useEffect(() => {
+  //   if (!blog || !blog.slug) {
+  //     console.error('Blog or blog.slug is undefined')
+  //     return
+  //   }
+  //   async function updateViewCount() {
+  //     await fetch(`/api/views?slug=${blog.slug}`, {
+  //       method: 'POST',
+  //     })
+  //   }
+
+  //   if (viewCount !== null) {
+  //     updateViewCount()
+  //   }
+  // }, [viewCount])
 
   return (
     <Container className="mt-16 lg:mt-32">
@@ -63,6 +115,9 @@ export function BlogLayout({
             <Prose className="mt-8" data-mdx-content>
               {children}
             </Prose>
+            <footer className="mt-8 flex justify-between">
+              {/* <p className="">{viewCount} views</p> */}
+            </footer>
           </article>
         </div>
       </div>
