@@ -76,8 +76,8 @@ export default function About() {
               I have 2 years of experience in the web development industry,
               where I&apos;ve had the opportunity to work on diverse projects
               ranging from SaaS to music lesson match making. My journey started
-              with a love for art and technology, and it has been an exciting
-              ride ever since.
+              with a curiosity and love for art and technology, and it has been
+              an exciting ride ever since.
             </p>
             <p>
               I enjoy taking on new challenges and continuously improving my
