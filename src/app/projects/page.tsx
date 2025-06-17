@@ -10,7 +10,8 @@ import logoMazecare from '@/images/logos/mazecare.png'
 const projects = [
   {
     name: 'Mazecare Patient Portal',
-    description: 'A patient portal demo app for the clients',
+    description:
+      'A patient portal demo app for the clients. It is built with React, Tailwind CSS, and TypeScript. For the state management, I use Recoil and for the routing I use React Router.',
     link: {
       href: 'https://patient-demo-1.mazecare.com/',
       label: 'patient-demo-1.mazecare.com',
@@ -19,14 +20,15 @@ const projects = [
   },
   {
     name: 'iChowa Landing Page',
-    description: 'Landing page for music matchmaking lesson',
+    description:
+      'Landing page for music matchmaking lessons platform. I use NextJS, Tailwind CSS, TypeScript and also Internationlatization for 3 languages feature.',
     link: { href: 'https://ichowa.com/', label: 'ichowa.com' },
     logo: logoIchowa,
   },
   {
     name: 'iChowa Mobile App',
     description:
-      'Web app and mobile app both iOS and Android in one repository. I use NextJS, Tailwind CSS, Framework7, and CapacitorJS',
+      'Web app and mobile app both for iOS and Android in one repository. I use NextJS, NextAuth, Tailwind CSS, Framework7, and CapacitorJS to turn webapp into mobile app.',
     link: { href: 'https://app.ichowa.com/', label: 'app.ichowa.com' },
     logo: logoIchowa,
   },
