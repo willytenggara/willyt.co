@@ -232,7 +232,7 @@ function Resume() {
         ))}
       </ol>
       <Button
-        href="/resume.pdf"
+        href="/willyt_cv.pdf"
         variant="secondary"
         className="group mt-6 w-full"
         download={true}
