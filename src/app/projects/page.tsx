@@ -6,6 +6,7 @@ import { SimpleLayout } from '@/components/SimpleLayout'
 
 import logoIchowa from '@/images/logos/ichowa.png'
 import logoMazecare from '@/images/logos/mazecare.png'
+import logoKerinduanku from '@/images/logos/logo-kc.png'
 
 const projects = [
   {
@@ -31,6 +32,15 @@ const projects = [
       'Web app and mobile app both for iOS and Android in one repository. I use NextJS, NextAuth, Tailwind CSS, Framework7, and CapacitorJS to turn webapp into mobile app.',
     link: { href: 'https://app.ichowa.com/', label: 'app.ichowa.com' },
     logo: logoIchowa,
+  },
+  {
+    name: 'Kerinduanku Church',
+    description: 'This is just an experimental project. Built using Bolt AI.',
+    link: {
+      href: 'https://kerinduanku.netlify.app/',
+      label: 'kerinduanku.netlify.app',
+    },
+    logo: logoKerinduanku,
   },
 ]
 
